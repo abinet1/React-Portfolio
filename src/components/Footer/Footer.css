@@ -1,0 +1,19 @@
+.footer{
+    padding-top: 5%;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-social{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-social h6{
+    display: flex;
+    justify-content: space-around;
+}

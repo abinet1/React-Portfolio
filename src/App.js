@@ -7,14 +7,17 @@ import Col from 'react-bootstrap/Col';
 
 import NavigationBar from "./components/NavigationBar/NavigationBar";
 import Hero from "./components/Hero/Hero";
+import About from "./components/About/About";
+import Skill from "./components/Skill/Skill";
+import Footer from"./components/Footer/Footer";
 function App() {
   return (
     <div>
       <NavigationBar />
       <Hero />
-      <about></about>
-      <skills></skills>
-      <footer></footer>
+      <About />
+      <Skill />
+      <Footer />
     </div>
   );
 }

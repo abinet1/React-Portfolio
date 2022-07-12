@@ -6,16 +6,17 @@ import Button from 'react-bootstrap/Button';
 
 const Hero=()=>{
   return (
-    <Container>
-      <section className="hero">
+    <section className="hero">
+      <Container className="hero-container">
+
         <img className="hero-image" src={profile_pic} />
         <hr />
         <h1>Hello</h1>
-        <h2>I'm <span className="hero-name">Abinet</span></h2>
-        <h2>Web <span className="hero-occopation">Developer</span></h2>
-        <div className="hero-button"><Button primery >Contact Me</Button></div>
-      </section>
-    </Container>
+        <h3>I'm <span className="hero-name">Abinet</span></h3>
+        <h3>Web <span className="hero-occopation">Developer</span></h3>
+        <span className="hero-button"><Button primery >Contact Me</Button></span>
+      </Container>
+    </section>
   )
 }
 
