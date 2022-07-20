@@ -1,5 +1,5 @@
 .footer{
-    padding-top: 5%;
+    padding-top: 10%;
 }
 
 .footer-container{
@@ -8,12 +8,31 @@
     align-items: center;
 }
 
+.footer-container svg{
+    padding:7%;
+}
+
 .footer-social{
     display: flex;
-    justify-content: space-between;
 }
 
 .footer-social h6{
     display: flex;
     justify-content: space-around;
+}
+
+.footer-body{
+    display: flex;
+}
+
+.footer-body img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.footer-message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }

@@ -1,6 +1,8 @@
 .skill{
-    margin-top: 5%;
-    background-color: #1a2e35;
+    margin-top: 10%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-image: linear-gradient(to top right, #1a2e50, #1a2e35);
     color:white;
 }
 

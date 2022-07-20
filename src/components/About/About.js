@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
 
-import aboutImg from "../../images/q2.jpg"
+import aboutImg from "../../images/q3.jpg"
 
 const About=()=>{
   	return (

@@ -1,3 +1,6 @@
+import { useEffect, useRef } from "react";
+import { TweenMax, Power3 } from "gsap/gsap-core";
+
 import "./Hero.css";
 import profile_pic from "../../images/ppss.png";
 import Image from 'react-bootstrap/Image';
@@ -5,8 +8,23 @@ import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
 
 const Hero=()=>{
+
+  let hero = useRef(null);
+  useEffect(()=>{
+    TweenMax.to(
+      hero,
+      .8,
+      {
+        opacity:1,
+        y: -20, 
+        ease: Power3.easeInOut
+
+      }
+    )
+  })
+  
   return (
-    <section className="hero">
+    <section className="hero" rel={el=>{hero = el}} >
       <Container className="hero-container">
 
         <img className="hero-image" src={profile_pic} />
