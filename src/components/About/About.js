@@ -12,12 +12,12 @@ const About=()=>{
     	<section className="about">
       		<Container className="about-container">
           		<Row sm className="about-row">
-			  		<Col className="about-col">
-						<img src={ aboutImg } />
+			  		<Col className="about-col about-img">
+						<img src={aboutImg} />
 					</Col>
 					<Col sm className="about-col">
 						<h1>Some things About Me.</h1>
-						<p>I’m a web & soft­ware devel­op­er from Addis Ababa, Ethiopia.</p>
+						<p>I'm Computer Science and engineering graguate with hands-on experience on Web and Software Development.</p>
 						<Work />
 					</Col>
 		  		</Row>

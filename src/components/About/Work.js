@@ -6,14 +6,31 @@ const Work=()=>{
             </h2>
             <ul>
                 <li>
-                    <time>
-                        <span >22.03.2021</span>
-                        <span>—</span>
-                    </time>
-                    <a title="Read this blog post">Sub­stack­’s 
-                        <span>UI</span> and <span>1</span>Password just cost me $<span>2</span>,
-                        <span>023</span>
-                    </a>
+                    <h4>Junior Web Developer</h4>
+                    <small>
+                        <span>
+                            Internship In BTG |
+                            <time>
+                                <span> July.14.2022</span>
+                            </time>
+                        </span>                        
+                        <br/>
+                        Took part in 8-monthlong web based system development Internship,working with: JS, HTML, CSS, and django(python) as backend.
+                    </small>
+                </li>
+                <hr />
+                <li>
+                    <h4>Junior Web Developer</h4>
+                    <small>
+                        <span>
+                            Jobs In EBC |
+                            <time>
+                                <span> July.14.2022</span>
+                            </time>
+                        </span>                        
+                        <br/>
+                        I am Tooking part in 2-monthlong web based system development, working with: JS, HTML, CSS, and laravel(php) as backend.
+                    </small>
                 </li>
             </ul>
         </section>
