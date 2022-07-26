@@ -8,12 +8,14 @@
 
 .skill-container{
     display:flex;
+    flex-direction: column;
 
 }
 
 .skill-container div{
     padding:2%;
 }
+
 
 .divs{
     border-right: 2px solid white;
