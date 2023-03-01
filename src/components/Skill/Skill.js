@@ -45,7 +45,7 @@ const Skill=()=>{
                         <br />
                         <p>My choise of cloud service provider is AWS. <br />
                             I am certifide cloud practitioner, and have experience on providing and configuring some of the core cloud service and monitoring on AWS.<br/>
-                            I'm preparing to take aws asosiated solution architect certification to expand to my current skill set.
+                            I'm preparing to take aws associate solution architect certification to expand to my current skill set.
                         </p>
                         <p>My goal is to work as a professional devops experience.</p>   
                         <br />
