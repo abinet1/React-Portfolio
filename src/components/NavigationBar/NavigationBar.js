@@ -13,8 +13,8 @@ const NavigationBar = () => {
           </Nav>
           <Nav>
             <Nav.Link href="#about">About</Nav.Link>
-            <Nav.Link href="#skills">Skills</Nav.Link>
-            <Nav.Link href="#contact">Contact</Nav.Link>
+            <Nav.Link href="#services">Service</Nav.Link>
+            <Nav.Link href="#plans">Plans</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
