@@ -9,7 +9,7 @@ import aboutImg from "../../images/q3.jpg"
 
 const About=()=>{
   	return (
-    	<section className="about">
+    	<section id="about" className="about">
       		<Container className="about-container">
           		<Row sm className="about-row">
 			  		<Col className="about-col about-img">

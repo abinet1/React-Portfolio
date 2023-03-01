@@ -7,7 +7,7 @@ import Button from 'react-bootstrap/Button';
 const Hero=()=>{
 
   return (
-    <section className="hero" >
+    <section id="home" className="hero" >
       <Container className="hero-container">
 
         <img className="hero-image" src={profile_pic} />
@@ -15,7 +15,7 @@ const Hero=()=>{
         <h1>Hello World</h1>
         <h3>I'm <span className="hero-name">Abinet</span></h3>
         <h3 className="longt">Web <span className="hero-occopation">Developer</span></h3>
-        <span className="hero-button"><Button primery >Contact Me</Button></span>
+        <span className="hero-button"><Button primery href="#contact">Contact Me</Button></span>
       </Container>
     </section>
   )
