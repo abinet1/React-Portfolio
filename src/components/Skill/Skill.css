@@ -12,6 +12,10 @@
 
 }
 
+.skill-container-header{
+    text-align: center;
+}
+
 .skill-container div{
     padding:2%;
 }
@@ -19,4 +23,11 @@
 
 .divs{
     border-right: 2px solid white;
+}
+
+.skills{
+    border:solid white 1px;
+    padding: 5px;
+    margin:5px;
+    border-radius: 5px;
 }
