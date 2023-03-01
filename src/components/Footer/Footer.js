@@ -20,7 +20,7 @@ const Footer=()=>{
                         </Col>
                         <Col sm className="footer-message">
                             <h1>Abinet</h1>
-                            <p>I very very enthusiastic when it come programming, data science and development.</p>
+                            <p>I very very enthusiastic when it come to programming, data science and development.</p>
                             <p>If you have any feedback regarding my portfolio or would want to discuss a different idea, please get in touch.</p>
                             <div className="footer-social">
                                 <a href="https://t.me/Phelix0l12345lkkdlkhldg45fdkrt53">
