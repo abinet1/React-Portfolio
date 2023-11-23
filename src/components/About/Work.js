@@ -3,31 +3,57 @@ const Work=()=>{
     return(
         <section className="works">
             <h2 className="work_title">
-                <a>Recent Works</a>
+                <a>Recent Jobs and projects</a>
             </h2>
             <ul className="work_ul">
                 <li>
-                    <h4 className="work_title">Software Engineer</h4>
+                    <h5 className="work_title">full-stack developer</h5>
                     <small>
                         <span>
-                            Jobs In INSA |
+                            Addis Software |
                             <time>
-                                <span> November.2022 </span> 
+                                <span> May.2023 </span> 
                             </time>
-                             | on going
+                             | on GOING
                         </span>                        
                     </small>
                 </li>
                 <hr />
                 <li>
-                    <h4 className="work_title">Personal cloud venture</h4>
+                    <h5 className="work_title">full-stack developer</h5>
                     <small>
                         <span>
-                            preparing to take aws associate solution architect |
+                            Ethio Ark Wood |
                             <time>
-                                <span> February.2022 </span>
+                                <span> September.2023 </span> 
                             </time>
-                            | on going
+                             | on GOING
+                        </span>                        
+                    </small>
+                </li>
+                <hr />
+                <li>
+                    <h5 className="work_title">Software Engineer</h5>
+                    <small>
+                        <span>
+                            Jobs In INSA |
+                            <time>
+                                <span> September.2022 </span> 
+                            </time>
+                             | May.2023
+                        </span>                        
+                    </small>
+                </li>
+                <hr />
+                <li>
+                    <h5 className="work_title">Software Engineer (internship)</h5>
+                    <small>
+                        <span>
+                            Bemi Tech group PLC |
+                            <time>
+                                <span> September.2021 </span>
+                            </time>
+                            | August.2022
                         </span>                        
                     </small>
                 </li>

@@ -17,7 +17,16 @@ const About=()=>{
 					</Col>
 					<Col sm className="about-col">
 						<h1>Some things About Me.</h1>
-						<p>I'm Computer Science and engineering graguate with hands-on experience on Web and Software Development.</p>
+						<p style={{fontSize: "12px"}}>
+							Software engineer with more than 4 years experience as web/software developer. I am a self-stater and motivated 
+							person interested in data structures and algorithms to face real world problems.
+						</p>
+						<p style={{fontSize: "12px"}}> 
+							I have studied Computer Science and engineering at ASTU . In my time at ASTU i have participated in ICPC (International 
+							Collegiate Programming Contest) challenges for 4 rounds earned the <a href="https://drive.google.com/file/d/16eyt0_ve2SN06cbfPnP6H9kxtAsAU6ny/view">extreme programmer certification</a> . So far i have solved 
+							300+ on <a href="https://open.kattis.com/users/abinet-tassew">kattis</a> , <a href="https://leetcode.com/abinettassewabi/">Leetcode</a> , 
+							<a href="https://codeforces.com/abinettassewabi300">code force</a> and so on.
+						</p>
 						<Work />
 					</Col>
 		  		</Row>
